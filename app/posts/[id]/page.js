@@ -1,5 +1,8 @@
-import React from 'react';
+import React from 'react'
 
-export default function PostDetail({ match }) {
-  // Complete the function
+export default function PostDetail({ id }) {
+  console.log(id)
+  return (
+    <h1>Post Detail: {id}</h1>
+  )
 }
